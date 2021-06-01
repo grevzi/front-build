@@ -1,0 +1,10 @@
+{# Example #}
+{# <img #}
+{# data-sizes="auto" #}
+{# data-src="{{ src }}" #}
+{# data-srcset="/images/1.jpg 300w, #}
+{# /images/3.jpg 600w, #}
+{# /images/4.jpg 900w" class="lazyload" /> #}
+
+<img src="{{ base | default('/images/placeholder.png') }}" data-src="{{ src }}"
+     class="lazyload {{ classes | default('') }} " alt="{{ alt | default('') }}"/>

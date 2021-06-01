@@ -1,0 +1,25 @@
+{% extends "l::main.twig" %}
+
+{% block title %}Index{% endblock %}
+{% block description %} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus assumenda deleniti doloremque  similique sunt totam voluptatum.{% endblock %}
+
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+{% block header %}
+    {{ parent() }}
+{% endblock %}
+{% block content %}
+
+    <div class="relative max-w-7xl mx-auto ">
+{#        {% include '@c/slider.twig' with { items: [#}
+{#            {title: 'Разделитеть', categoty: 'Ужасы', rate: '6.5' , date: '2011', img: '/images/home/razdelitel.jpg'},#}
+{#            {title: 'Дьявол в деталях', categoty: 'Ужасы', rate: '7' , date: '2021', img: '/images/home/2.jpg'},#}
+{#            {title: 'Девушка подающая надежду', categoty: 'Триллер', rate: '6.6' , date: '2020', img: '/images/home/devushka-podayuschaya-nadezhdy.jpg'}#}
+{#        ]} %}#}
+    </div>
+
+
+    {#    {% include '@c/img.twig'  with {src: '/images/5.jpg'} %}#}
+
+{% endblock %}
