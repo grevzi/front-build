@@ -1,0 +1,26 @@
+{
+  "name": "front-build",
+  "version": "1.0.0",
+  "description": "Base Laravel Mix build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/grevzi/front-build.git"
+  },
+  "keywords": [
+    "js",
+    "sass",
+    "laravel-mix",
+    "frontend",
+    "build"
+  ],
+  "author": "grevzi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grevzi/front-build/issues"
+  },
+  "homepage": "https://github.com/grevzi/front-build#readme"
+}
